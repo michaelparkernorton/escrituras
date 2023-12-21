@@ -10,7 +10,7 @@ function renderCards(data, container) {
 		console.log(card);
 		const referencia = card.querySelector("[card-referencia]");
 		const palavras = card.querySelector("[card-palavras]");
-		referencia.textContent = escritura.referencia;
+		referencia.textContent = escritura.referência;
 		palavras.textContent = escritura.palavras;
 		container.append(card);
 	});
