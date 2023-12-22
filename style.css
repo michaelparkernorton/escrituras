@@ -21,6 +21,7 @@
 	color: #333;
 	background-color: lightblue;
 	border-radius: 10px;
+	opacity: 0;
 }
 
 .dark {
@@ -31,12 +32,14 @@
 .animate {
 		animation-name: fadeIn;
 		animation-duration: 4s;
+		animation-fill-mode: forwards;
 }
 
 .second {
 	animation-name: fadeIn;
 	animation-duration: 4s;
 	animation-delay: 2s;
+	animation-fill-mode: forwards;
 }
 
 /* The animation code */
