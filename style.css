@@ -22,7 +22,7 @@
 	background-color: lightblue;
 	border-radius: 10px;
 	width: 70%;
-	/* opacity: 0; */
+	margin-left: 125%;
 }
 
 .dark {
@@ -37,9 +37,9 @@
 }
 
 .second {
-	animation-name: fadeIn;
+	animation-name: slidein;
 	animation-duration: 4s;
-	animation-delay: 2s;
+	animation-delay: 1s;
 	animation-fill-mode: forwards;
 }
 
@@ -51,7 +51,7 @@
 
 @keyframes slidein {
   from {
-    margin-left: 100%;
+    margin-left: 125%;
   }
 
   to {
