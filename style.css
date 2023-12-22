@@ -21,7 +21,8 @@
 	color: #333;
 	background-color: lightblue;
 	border-radius: 10px;
-	opacity: 0;
+	width: 70%;
+	/* opacity: 0; */
 }
 
 .dark {
@@ -30,9 +31,9 @@
 	}
 	
 .animate {
-		animation-name: fadeIn;
-		animation-duration: 4s;
-		animation-fill-mode: forwards;
+  animation-name: slidein;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
 }
 
 .second {
@@ -48,7 +49,12 @@
   to {opacity: 1;}
 }
 
-@keyframes delay {
-  from {opacity: 0;}
-  to {opacity: 1;}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
