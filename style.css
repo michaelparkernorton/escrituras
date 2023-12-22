@@ -41,21 +41,21 @@
 .second {
 	animation-name: slidein;
 	animation-duration: 4s;
-	animation-delay: 1s;
+	animation-delay: .4s;
 	animation-fill-mode: forwards;
 }
 
 .third {
 	animation-name: slidein;
 	animation-duration: 4s;
-	animation-delay: 2s;
+	animation-delay: .8s;
 	animation-fill-mode: forwards;
 }
 
 .fourth {
 	animation-name: slidein;
 	animation-duration: 4s;
-	animation-delay: 3s;
+	animation-delay: 1.2s;
 	animation-fill-mode: forwards;
 }
 
