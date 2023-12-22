@@ -9,9 +9,6 @@
 	margin: 0;
 }
 
-body {
-}
-
 .card-container {
 	overflow: hidden;
 	display: grid;
@@ -26,7 +23,7 @@ body {
 	color: #333;
 	background-color: lightblue;
 	border-radius: 10px;
-	width: 70%;
+	width: 80%;
 	margin-left: 125%;
 }
 
@@ -45,6 +42,13 @@ body {
 	animation-name: slidein;
 	animation-duration: 4s;
 	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+.third {
+	animation-name: slidein;
+	animation-duration: 4s;
+	animation-delay: 2s;
 	animation-fill-mode: forwards;
 }
 

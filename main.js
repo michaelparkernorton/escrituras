@@ -40,3 +40,4 @@ addClassAnimate(0);
 
 
 cards[1].classList.add('second');
+cards[2].classList.add('third');
