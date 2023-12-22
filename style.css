@@ -59,6 +59,13 @@
 	animation-fill-mode: forwards;
 }
 
+.fifth {
+	animation-name: slidein;
+	animation-duration: 4s;
+	animation-delay: 1.4s;
+	animation-fill-mode: forwards;
+}
+
 /* The animation code */
 @keyframes fadeIn {
   from {opacity: 0;}
