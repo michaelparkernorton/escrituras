@@ -21,9 +21,16 @@
 	color: #333;
 	background-color: lightblue;
 	border-radius: 10px;
-}
+  animation-name: fadeIn;
+  animation-duration: 4s;}
 
 .dark {
 	background-color: #333;
 	color: #f5f5f5;
+}
+
+/* The animation code */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
