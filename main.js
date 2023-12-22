@@ -20,7 +20,6 @@ function renderCards(data, container) {
 
 const date = new Date();
 const time = date.getHours();
-console.log(typeof time);
 renderCards(data, cardContainer);
 const cards = document.querySelectorAll(".card");
 const body = document.querySelector("body");
@@ -32,5 +31,12 @@ if (time >= 20 || time <= 5) {
 	body.style.backgroundColor = "black";
 }
 
-console.log(cards[0].children[1].textContent);
 
+function addClassAnimate(number) {
+	cards[number].classList.add('animate');
+}
+
+addClassAnimate(0);
+
+
+cards[1].classList.add('second');
