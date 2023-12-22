@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-  --spacing: 50px;
+  --spacing: 5vw;
 }
 
 
@@ -23,7 +23,7 @@
 	color: #333;
 	background-color: lightblue;
 	border-radius: 10px;
-	width: 80%;
+	width: 80vw;
 	margin-left: 125%;
 }
 
