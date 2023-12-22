@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+:root {
+  --spacing: 30px;
+}
 
 
 * {
@@ -8,13 +11,13 @@
 
 .card-container {
 	display: grid;
-	row-gap: 20px;
+	row-gap: var(--spacing);
 	font-family: 'Bebas Neue', sans-serif;
-	margin: 20px
+	margin: var(--spacing);
 }
 
 .card {
-	padding: 20px;
+	padding: var(--spacing);
 	color: #333;
 	background-color: lightblue;
 	border-radius: 10px;
