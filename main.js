@@ -29,5 +29,5 @@ if (time >= 20 || time <= 5) {
 	body.style.backgroundColor = "black";
 }
 
-
+console.log(cards[0].children[1].textContent);
 
