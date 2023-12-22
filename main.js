@@ -15,5 +15,19 @@ function renderCards(data, container) {
 	});
 }
 
+const date = new Date();
+const time = date.getHours();
+console.log(typeof time);
 renderCards(data, cardContainer);
+const cards = document.querySelectorAll(".card");
+const body = document.querySelector("body");
+
+if (time >= 20 || time <= 5) {	
+	cards.forEach(card => {
+		card.classList.add('dark');
+	});
+	body.style.backgroundColor = "black";
+}
+
+
 

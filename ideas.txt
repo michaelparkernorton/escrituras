@@ -1,0 +1,6 @@
+On load have the cards appear in an animated way.
+When you click on a card have it read
+Add audio to the cards
+Have the cards rotate each day
+Have dark mode turn on after 8 PM
+Turn light mode on after 6 AM
