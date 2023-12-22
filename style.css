@@ -9,11 +9,16 @@
 	margin: 0;
 }
 
+body {
+}
+
 .card-container {
+	overflow: hidden;
 	display: grid;
 	row-gap: var(--spacing);
 	font-family: 'Bebas Neue', sans-serif;
-	margin: var(--spacing);
+	margin: var(--spacing) 0;
+	margin-left: var(--spacing);
 }
 
 .card {
