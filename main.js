@@ -40,6 +40,12 @@ addClassAnimate(0);
 
 
 cards[1].classList.add('second');
+cards[0].addEventListener('click', active);
+
+function active() {
+	cards[0].classList.add('active');
+	cardContainer.style.margin = "0";
+}
 cards[2].classList.add('third');
 cards[3].classList.add('fourth');
 cards[4].classList.add('fifth');

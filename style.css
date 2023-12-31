@@ -66,6 +66,13 @@
 	animation-fill-mode: forwards;
 }
 
+.active {
+	width: 90vw;
+	height: 100vh;
+	border-radius: 0;
+	font-size: 25px;
+}
+
 /* The animation code */
 @keyframes fadeIn {
   from {opacity: 0;}
